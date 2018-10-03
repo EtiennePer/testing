@@ -245,7 +245,6 @@ public class MyPointTest {
      * Lors de l'utilisation de la méthode  horizontalSymetrie
      * avec un paramètre non null.
      *
-     * Le
      */
     @Test
     public void testhorizontalSymmetry2(){
@@ -257,7 +256,7 @@ public class MyPointTest {
         MyPoint actual = myPoint.horizontalSymmetry(origin);
 
         assertEquals(expected_x, actual.getX(), DELTA);
-        assertEquals(expected_y, myPoint.getY(), DELTA);
+        assertEquals(expected_y, actual.getY(), DELTA);
     }
 
     /**
